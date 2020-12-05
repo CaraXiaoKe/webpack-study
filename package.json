@@ -1,0 +1,27 @@
+{
+  "name": "RemoteWorking",
+  "version": "1.0.0",
+  "description": "",
+  "main": "formatexpress.js",
+  "dependencies": {
+    "webpack": "^5.9.0",
+    "webpack-cli": "^4.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.js",
+    "build4": "cd webpack4 && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CaraXiaoKe/webpack-study.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CaraXiaoKe/webpack-study/issues"
+  },
+  "homepage": "https://github.com/CaraXiaoKe/webpack-study#readme"
+}
