@@ -2,16 +2,22 @@
   "name": "RemoteWorking",
   "version": "1.0.0",
   "description": "",
-  "main": "formatexpress.js",
   "dependencies": {
-    "webpack": "^5.9.0",
-    "webpack-cli": "^4.2.0"
+    "antd": "^4.9.4",
+    "koa": "^2.13.1",
+    "koa-static": "^5.0.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "vue-cli": "^2.9.6",
+    "webpack-cli": "^4.3.1"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack --config webpack.config.js",
-    "build4": "cd webpack4 && npm run build"
+    "start": "m-cli dev",
+    
+    "build:test": "NODE_ENV=test m-cli build",
+    "build:staging": "NODE_ENV=staging m-cli build",
+    "serve": "node server.js"
   },
   "repository": {
     "type": "git",
